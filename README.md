@@ -1,16 +1,22 @@
-# Build from source
+# About
+This is a simple Java implementation of two optimisation algorithms applied to the MAX-3SAT problem. The algorithms used are Simulated Annealing and Aritifical Bee Colony. For more details, take a look at the report document.
 
-## Prerequisites
+This project is the result of a student assignment.
+
+
+## Build from source
+
+### Prerequisites
 
 JDK 8 or later installed
 Maven installed
 
-## Build
+### Build
 
 on windows, run build.bat
 "mvn clean install -DskipTests" will bexecuted
 
-# Binaries
+## Binaries
 
 (prebuild and clean build) binaries can be found in the folder /target
 
@@ -18,7 +24,7 @@ on windows
 run startBenchmark.bat for JMH benchmark
 run startInteractive.bat for running costum comparisons
 
-# How to use the interactive mode
+## How to use the interactive mode
 
 It is a simple console application which runs a configurable benchmark comparison and outputs the result in a plot and some metric number in a .txt file.
 
